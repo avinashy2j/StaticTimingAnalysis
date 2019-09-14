@@ -5,7 +5,8 @@ This design contains Muxes, Half Adder and AND gates. The logic was implemented 
 The design description is as follows:
 E= A+B, if S=0
 F= B+D, if S=1
-![](Schematic.png)
+
+![](/Schematic.png)
 
  
 
