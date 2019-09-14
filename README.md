@@ -2,13 +2,9 @@
 Implementation of Timing Exceptions in RTL design for STA 
 
 This design contains Muxes, Half Adder and AND gates. The logic was implemented using Verilog and synthesized on Design Compiler to obtain gate level netlist timing_mapped.v. Regular Threshold Voltage liberty file was used for synthesis and timing analysis.
-The design description is as follows:
+The design description is as follows (and see the schematic.png):
 E= A+B, if S=0
 F= B+D, if S=1
-
-![](/Schematic.png)
-
- 
 
 The operating condition was selected worst i.e., 0.95V and 125 C with on-chip variation analysis mode. 
 After completing synthesis the design was used as an input to Primetime. The initial setup script is attached in the TCL format which are three in count: caseAnalysis.tcl, clockGroup.tcl and falsePath.tcl.
